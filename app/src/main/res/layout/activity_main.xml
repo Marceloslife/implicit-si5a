@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Template"/>
+
+
+    <EditText
+        android:id="@+id/et_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="http://google.com"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/btn_bukawebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="BUKA WEBSITE"/>
+    <EditText
+        android:id="@+id/et_Lokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jembatan ampera"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/btn_buka_lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="buka lokasi"/>
+    <EditText
+        android:id="@+id/et_Teks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="teks apa aja"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/btn_bagikanteks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="aja"/>
+
+
+</LinearLayout>
